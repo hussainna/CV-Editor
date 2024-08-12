@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/style/formLeft/style.scss'
 import Downloads from '../components/Downloads'
-import PersonalInformation from '../components/personal-informations'
+import PersonalInformation from '../components/personal-informations/Index'
 import SocialMedia from '../components/social-media/Index'
 import AddOrDelete from '../components/AddOrDelete'
 import Summary from '../components/Summary/Index'
