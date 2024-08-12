@@ -1,0 +1,36 @@
+@import './main.scss';
+.Downloads{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    .icon-download{
+        display: flex;
+        cursor: pointer;
+
+    }
+    span{
+        font-size: 20px;
+        color: white;
+    }
+    i{
+        background-color: $Dpink;
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+        margin: 0px 10px;
+        font-size: 20px;
+        display: flex;
+    }
+}
+
+.AddOrDelete{
+    margin: 10px 0;
+    i {
+    color: #fff;
+    font-size: 30px;      /* Set the font size */
+    margin: 0px 5px;
+   cursor: pointer;
+    }
+
+}

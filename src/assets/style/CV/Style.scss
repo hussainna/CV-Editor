@@ -1,0 +1,85 @@
+@import '../main.scss';
+
+.CVTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px dotted black;
+}
+.flex{
+    @include flex(space-between,center);
+    margin: 10px 0;
+    .col{
+        margin: 0px 10px;
+        i{
+            position: relative;
+            top: 2px;
+            margin: 0px 5px;
+        }
+    }
+}
+.CVLayouts{
+    display: flex;
+    margin: 10px 0;
+
+    .left{
+        flex:3;
+        margin-right: 40px;
+    }
+    .right{
+        flex: 9;
+    }
+    h4{
+        color: #000;
+        border-bottom-width: 2px;
+        padding-bottom: 5px;
+        border-bottom: rgb(163, 159, 159) solid;
+    }
+    h5{
+        font-size: 15px;
+        
+    }
+    .right{
+        h5{
+            margin-top: 10px;
+        }
+        span{
+            margin: 5px 0;
+            
+        }
+        p{
+            margin: 5px 0;
+        }
+        ul{
+            margin-left: 15px;
+            li{
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+.SummaryCV{
+    
+    p{
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+.EducationCV{
+    margin: 15px 0;
+    h5{
+        margin: 5px 0;
+    }
+}
+.grid-group{
+    @include grid(4,center);
+    margin: 5px 0;
+    span{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}
